@@ -1,0 +1,230 @@
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+    min-height: 100vh;
+    overflow: hidden;
+    background: #fafafa;
+}
+.header {
+    width: 100%;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.edit__information-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #fa709a;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+.edit__information-list a{
+    color: #fff;
+}
+.header__container {
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    height: 100%;
+}
+.header__group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo-img {
+    width: 45px;
+}
+.logo-text {
+    color: #000;
+    font-weight: 600;
+    font-size: 26px;
+}
+.logo-link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    gap: 50px;
+}
+.menu:last-child{
+    gap: 25px;
+}
+.menu-link {
+    color: #000;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+.menu-link:hover {
+    color: #7070ee;
+}
+.text {
+    color: #fff;
+    font-size: 20px;
+}
+.span {
+    color: #fff;
+    font-size: 20px;
+}
+.header__username {
+    display: flex;
+    align-items: center;
+}
+.username {
+    color: #000;
+    font-size: 16px;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+}
+.avatar-icon{
+    width: 30px;
+    height: 30px;
+    fill: #000;
+}
+.profile_user {
+    position: relative;
+    padding: 20px 0px 20px 20px;
+    cursor: pointer;
+    z-index: 5;
+}
+.login-text {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.login-button {
+    width: 100%;
+    height: 45px;
+    background: #fa709a;
+    border-radius: 40px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.input-box {
+    position: relative;
+    width: 320px;
+    margin: 30px 0 10px;
+    border-bottom: 2px solid #fff;
+}
+.input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    font-size: 1em;
+    color: #fff;
+    padding: 0px 35px 0px 5px;
+}
+.input:focus ~ label,
+.input:valid ~ label {
+    top: 0px;
+}
+.icon {
+    fill: #fff;
+    font-size: 1.2rem;
+    line-height: 57px;
+    width: 20px;
+    height: 20px;
+}
+.mail-icon{
+    position: absolute;
+    top: 13px;
+    right: 15px;
+}
+.label {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.input:focus ~ label,
+.input:valid ~ label {
+    top: 0px;
+}
+.profile-menu {
+    display: none;
+    width: 300px;
+    height: 100px;
+    text-align: right;
+    border-radius: 4px;
+    background-color: #fff;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    padding: 10px;
+}
+.profile-item {
+    line-height: 24px;
+    font-size: 20px;
+}
+.profile_user:hover > .profile-menu {
+    display: initial;
+}
+.calendar-icon{
+    position: static;
+    fill: #000;
+}
+.menu__auth-link{
+    font-size: 14px;
+    font-weight: 500;
+}
+/*  Main Початок   */
+
+.container{
+    display: flex;
+    padding: 0 100px;
+}
+.text-info{
+    margin-top: 200px;
+    width: 40%;
+}
+.image-info{
+    width: 60%;
+}
+.title{
+    color: #242424;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 113%;
+    letter-spacing: -1.2px;
+}
+.info-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.info-item{
+    list-style-type: disc;
+    color: rgba(102, 102, 102, 0.80);
+}
+.info-text{
+    color: rgba(102, 102, 102, 0.80);
+    font-size: 16px;
+    line-height: 148%;
+    letter-spacing: -0.32px;
+}
+
+/*  Main Кінець   */

@@ -1,0 +1,28 @@
+.modal{
+    display: block;
+    transform: scale(.2);
+    opacity: 0;
+    transition: all 200ms linear;
+    border-radius: 4px;
+    text-align: center;
+    max-width: 500px;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.modal[open]{
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+.modal__inner{
+    padding: 1em 2em;
+}
+.modal::backdrop{
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+}
